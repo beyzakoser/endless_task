@@ -4,16 +4,9 @@
 } 
 
 .App-header {
-  background-color: #e5e5e5;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  text-align: center;
-  
 }
+
 .Filter{
   background-color :white;
   border-radius: 20px;
@@ -27,10 +20,44 @@
   right: 0;
 
 }
-.Card{
-  text-align: center;
-}
 
+.Card-group{
+  width: 1300px;
+  height:700px;
+  position: absolute;
+  margin:auto;
+  top: 10%;
+  bottom: 0;
+  left:0;
+  right: 0;
+}
+.Card{
+  border-radius: 20px;
+  height: 40%;
+  background-color: white;
+  font-family:' system-ui';
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  float:left;
+  margin-right: 10%;
+  margin-left: 10%;
+  
+}
+.btn-card{
+  background-color :#1264c9;
+  height: 15%;
+  width: 95%;
+  border-radius: 10px;
+  position: relative;
+  margin-top:15%;
+  margin-bottom:auto;
+  top: 0;
+  bottom: 0;
+  color:white;
+  border:none;
+
+}
 .GreyDiv{
   position: absolute;
   width: 950px;
@@ -40,7 +67,6 @@
   bottom: 0;
   background-color: #e5e5e5;
   border-radius: 20px;
-
 
 }
 .Ara{
@@ -58,6 +84,8 @@
   right:0;
   color:white;
   border:none;
+  font-weight: 5600;
+  font-size: initial;
 }
 .Search{
   height: 56px;

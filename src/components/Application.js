@@ -6,30 +6,35 @@ import Grid from "@material-ui/core/Grid";
 import logo from '../logo/taskIcon.jpg';
 
 
-
+const list=[1,2,3,4,5,6,7,8]
 function Application() {
     return (
-        <div className="Card">
-            <Container style={{ marginTop: "5%", backgroundColor: "#ffffff", height: '30vh', width: '32vh', borderRadius: '10px' }}>
+        <div className="Card-group" >
+            {
+            list.map(() => {
+                return (
+
+            <Container className="Card" style={{ width: '20%', marginLeft: '5%' }}>
 
                 <img src={logo} style={{ width: '200px', marginTop: "5%" }} alt="Logo" />
                 <hr color="#e5e5e5" />
 
-                <Typography component="h1" style={{ fontFamily: 'system-ui', fontWeight: '700', color: "black" }} variant="h4" gutterBottom>
+                <Typography component="h1" style={{ fontWeight: '700', color: "black" }} variant="h4" gutterBottom>
                     ACE
-                    </Typography>
+                </Typography>
 
-                <Typography style={{ fontFamily: 'system-ui', fontWeight: '400', color: "grey" }}  >
+                <Typography style={{ fontWeight: '400', color: "grey" }}  >
                     "Bizimle Ingilizce ögrenin!"
-                    </Typography>
+                </Typography>
 
-                <Button variant="contained" color="primary" size="large" style={{ marginTop: "10%" }}>
-                    FİRMANIN STANDINI GOR
-                </Button>
-
+                <button className="btn-card" >
+                    FİRMANIN STANDINI GÖR
+                </button>
             </Container>
+        );
+    })}
         </div>
     );
-}
 
+}
 export default Application;
