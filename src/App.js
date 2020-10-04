@@ -5,6 +5,7 @@ import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
 import TextField from '@material-ui/core/TextField';
 import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,8 +17,13 @@ import {
 } from "react-router-dom";
 
 import './App.css'
+//   React.useEffect(() => {
+//         console.log(state);
+    
 
+// }, [state]);
 function App() {
+
   return (
     <div className="App"  >
       <div className="Filter" >
@@ -56,7 +62,9 @@ function App() {
       </Router>
       <header className="App-header" style={{ backgroundColor:'#e5e5e5' }}>
 
-      </header>
+
+      </header>    
+
 
     </div>
   );
