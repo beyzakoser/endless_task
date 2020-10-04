@@ -1,1 +1,1 @@
-<img src="endless_task.png" width="700" height="500" >
+<img src="endless_task.png" width="800" height="500" >
