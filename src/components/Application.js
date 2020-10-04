@@ -11,6 +11,7 @@ function Application() {
     return (
         <div className="Card-group" >
             {
+            /*8 tane card oluşturmak için*/ 
             list.map(() => {
                 return (
 

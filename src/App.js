@@ -17,11 +17,7 @@ import {
 } from "react-router-dom";
 
 import './App.css'
-//   React.useEffect(() => {
-//         console.log(state);
-    
-
-// }, [state]);
+/* Ust kısımdaki filtreleme kısmı ve routing yapısı*/ 
 function App() {
 
   return (

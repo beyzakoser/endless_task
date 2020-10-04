@@ -5,6 +5,7 @@ import { Link as RouterLink } from "react-router-dom";
 import Typography from "@material-ui/core/Typography";
 
 function LeftMenu() {
+    /*Butona basıldığında rengin ve ortadaki salon bilgisinin değişmesi için olan kısım*/ 
     const [state, setState] = React.useState('button01');
     const [prevState, setPrevState] = React.useState('button02');
     function changeColor(id,infoText) {
@@ -73,7 +74,6 @@ function LeftMenu() {
             </div>
 
         </div>
-
 
 
     )
